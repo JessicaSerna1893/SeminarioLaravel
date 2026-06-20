@@ -126,3 +126,7 @@ Usuario: root, Contraseña: root_password.
 ## Actividad Array Demo
 
 ![Actividad Laravel](src/imagenes/array_demo.png)
+
+## Actividad Funciones
+
+![Actividad Laravel](src/imagenes/funciones.png)
