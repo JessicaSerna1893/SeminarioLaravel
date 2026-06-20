@@ -142,3 +142,7 @@ Usuario: root, Contraseña: root_password.
 ## Actividad test
 
 ![Actividad Laravel](src/imagenes/test.png)
+
+## Actividad MODELO
+
+![Actividad Laravel](src/imagenes/modelo.png)
