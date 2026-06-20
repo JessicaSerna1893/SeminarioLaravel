@@ -138,3 +138,7 @@ Usuario: root, Contraseña: root_password.
 ## Actividad Catalogo POO
 
 ![Actividad Laravel](src/imagenes/Catalogo.png)
+
+## Actividad test
+
+![Actividad Laravel](src/imagenes/test.png)
