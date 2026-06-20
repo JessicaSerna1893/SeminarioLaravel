@@ -117,3 +117,7 @@ Usuario: root, Contraseña: root_password.
 ## Actividad Laravel
 
 ![Actividad Laravel](src/imagenes/actividad-laravel.png)
+
+## Actividad Laravel
+
+![Actividad Laravel](src/imagenes/presentacion.png)
