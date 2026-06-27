@@ -150,3 +150,7 @@ Usuario: root, Contraseña: root_password.
 ## Actividad Controlador C y front Controller 
 
 ![Actividad Laravel](src/imagenes/controller.png)
+
+## Actividad Vistas
+
+![Actividad Laravel](src/imagenes/vistas.png)
