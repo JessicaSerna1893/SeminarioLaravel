@@ -146,3 +146,7 @@ Usuario: root, Contraseña: root_password.
 ## Actividad MODELO
 
 ![Actividad Laravel](src/imagenes/modelo.png)
+
+## Actividad Controlador C y front Controller 
+
+![Actividad Laravel](src/imagenes/controller.png)
