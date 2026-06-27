@@ -1,17 +1,20 @@
 <?php
+// Este archivo es el punto de entrada (Front Controller)
+require_once 'controllers/UserController.php';
 
-require_once 'POO/Producto.php';
+$controller = new UserController();
 
-$prod1 = new Producto("Laptop Gamer", 1500, "Electrónica");
-$prod2 = new Producto("Mouse Inalámbrico", 80, "Oficina");
-$prod3 = new Producto("Monitor 4K", 1200, "Electrónica");
+// Leer la acción desde la URL. Si no viene, por defecto 'index'
+$action = $_GET['action'] ?? 'index';
 
-echo "<h2>Catálogo POO</h2>";
-
-echo "<ul>";
-echo "<li>" . $prod1->getInfo() . "</li>";
-echo "<li>" . $prod2->getInfo() . "</li>";
-echo "<li>" . $prod3->getInfo() . "</li>";
-echo "</ul>";
-
+// Enrutamiento básico (manual)
+if ($action === 'index') {
+    $controller->index();
+} elseif ($action === 'create') {
+    $controller->create();
+} elseif ($action === 'delete') {
+    $controller->delete();
+} else {
+    echo "Página no encontrada";
+}
 ?>
